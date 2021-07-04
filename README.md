@@ -27,7 +27,7 @@ docker build -t fibonacci .
 
 This command used the Dockerfile to build a new container image of this application.
 
-##How to start an app container
+How to start an app container
 
 Start the container using the below command:
 
