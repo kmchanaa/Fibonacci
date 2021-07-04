@@ -1,12 +1,12 @@
 # Fibonacci
 
-##How to start the Fibonacci application
+How to start the Fibonacci application
 ---
 
-Run `mvn clean install` to build your application
-Start application with `java -jar target/fibonacci-0.0.1-SNAPSHOT.jar server config.yml`
-To check that your application is running enter url `http://localhost:8080/fibonacci`
-You can see the fibonacci sequence and sorted sequence by sending a http get request with "elements" as key and value between 1 to 100 e.g.:
+1. Run `mvn clean install` to build your application
+1. Start application with `java -jar target/fibonacci-0.0.1-SNAPSHOT.jar server config.yml`
+1. To check that your application is running enter url `http://localhost:8080/fibonacci`
+1. You can see the fibonacci sequence and sorted sequence by sending a http get request with "elements" as key and value between 1 to 100 e.g.:
 `http://localhost:8080/fibonacci?elements=10`
 
 Health Check
@@ -16,7 +16,7 @@ To see your applications health enter url `http://localhost:8081/healthcheck`
 
 #Dockerfile
 
-##How to build the app's container image
+How to build the app's container image
 ---
 
 In the project directory, run the command:
