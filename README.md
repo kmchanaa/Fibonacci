@@ -35,4 +35,4 @@ Start the container using the below command:
 docker run -p 8080:8080 fibonacci
 ```
 
-Now, open your web broser to `http://localhost:8080/fibonacci`. You should see the application is running.
+Now, open your web browser to `http://localhost:8080/fibonacci`. You should see the application is running.
