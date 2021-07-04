@@ -6,7 +6,7 @@ How to start the Fibonacci application
 1. Run `mvn clean install` to build your application
 1. Start application with `java -jar target/fibonacci-0.0.1-SNAPSHOT.jar server config.yml`
 1. To check that your application is running enter url `http://localhost:8080/fibonacci`
-1. You can see the fibonacci sequence and sorted sequence by sending a http get request with "elements" as key and value between 1 to 100 e.g.:
+1. You can see the fibonacci sequence and sorted sequence by sending a http get request with "elements" as key and value between 1 to 100 e.g.
 `http://localhost:8080/fibonacci?elements=10`
 
 Health Check
